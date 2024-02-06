@@ -1,4 +1,6 @@
-// This means that the digit degree of the number 12345 is 2, according to the logic in the digitDegree method. The digit degree represents the number of times you need to sum the digits of a number until you get a single-digit result. In this case, 1 + 2 + 3 + 4 + 5 = 15, and then 1 + 5 = 6, which is a single digit.
+// This means that the digit degree of the number 12345 is 2, according to the logic in the digitDegree method. 
+// The digit degree represents the number of times you need to sum the digits of a number until you get a single-digit
+// result. In this case, 1 + 2 + 3 + 4 + 5 = 15, and then 1 + 5 = 6, which is a single digit.
 
 public class Main {
     public static void main(String[] args) {
