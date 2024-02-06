@@ -3,6 +3,9 @@
 // of the input string and appends them to the result string r as long as they are digits. 
 // Once a non-digit character is encountered, the method returns the current value of r, 
 // which represents the longest digits prefix found.
+//The longestDigitsPrefix method initializes a variable to track the maximum length of the digits prefix, 
+// then iterates through the input string, appending digit characters to a result string until a non-digit character 
+// is encountered, and finally returns the result string representing the longest prefix of digits found.
 
 public class Main {
     public static void main(String[] args) {
