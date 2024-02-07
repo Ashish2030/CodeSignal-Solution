@@ -9,7 +9,7 @@ public class ArrayChangeExample {
         int result = arrayChange(inputArray);
         System.out.println(result);
     }
-// At index 2, an operation is performed to increase the element 5 to 4 since it is not strictly greater than the previous element 3. The difference x is calculated as 3 - 5 + 1 = -1, resulting in one operation.
+// At index 2, an operation is performed to increase the element 5 to 4 since it is not strictly greater than the previous element 3. The difference x is calculated as 3 - 5 + 1 = -1, resulting in two operation.
 // At index 3, an operation is performed to increase the element 4 to 6 since it is not strictly greater than the previous element 5. The difference x is calculated as 5 - 4 + 1 = 2, resulting in two operations.
 // At index 4, an operation is performed to increase the element 2 to 5 since it is not strictly greater than the previous element 4. The difference x is calculated as 4 - 2 + 1 = 3, resulting in three operations.
     public static int arrayChange(int[] inputArray) {
