@@ -1,4 +1,7 @@
-/*The method calculates the alternating sums of the elements in an input array. It uses a flag variable to determine which sum to update and iterates through the array, adding elements to the corresponding sum based on the flag value. The resulting alternating sums are stored in a new array and returned as the output.*/
+/*The method calculates the alternating sums of the elements in an input array. 
+It uses a flag variable to determine which sum to update and iterates through the array, 
+adding elements to the corresponding sum based on the flag value. The resulting alternating 
+sums are stored in a new array and returned as the output.*/
 
 public class AlternatingSumsExample {
     public static void main(String[] args) {
