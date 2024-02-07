@@ -1,9 +1,7 @@
-/*The arrayChange method examines each element in the inputArray and checks if it is strictly 
-greater than the previous element. If not, it performs an operation to increase the element 
-and calculates the minimum number of operations required. In the given example, two operations 
-are performed to make the array {1, 3, 5, 4, 2} strictly increasing, resulting in the 
-array {1, 3, 5, 6, 7}. The total number of operations performed is 4, 
-which is returned as the output.*/
+/*The arrayChange method takes an array inputArray containing {1, 3, 5, 4, 2} as input. 
+It calculates the minimum number of operations required to make the array strictly increasing.
+In this example, a total of 7 operations are performed to transform the array into {1, 3, 5, 6, 7},
+where each element is strictly greater than the previous one.*/
 
 public class ArrayChangeExample {
     public static void main(String[] args) {
@@ -11,7 +9,9 @@ public class ArrayChangeExample {
         int result = arrayChange(inputArray);
         System.out.println(result);
     }
-
+// At index 2, an operation is performed to increase the element 5 to 4 since it is not strictly greater than the previous element 3. The difference x is calculated as 3 - 5 + 1 = -1, resulting in one operation.
+// At index 3, an operation is performed to increase the element 4 to 6 since it is not strictly greater than the previous element 5. The difference x is calculated as 5 - 4 + 1 = 2, resulting in two operations.
+// At index 4, an operation is performed to increase the element 2 to 5 since it is not strictly greater than the previous element 4. The difference x is calculated as 4 - 2 + 1 = 3, resulting in three operations.
     public static int arrayChange(int[] inputArray) {
         int result = 0;
         int x = 0;
