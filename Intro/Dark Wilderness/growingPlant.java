@@ -1,6 +1,7 @@
-// This means that it takes 4 days for the plant to reach the desired height of 10, given the growth speed of 5 
-// unit per day and the decline speed of 2 units per day, according to the logic in the growingPlant method. On even 
-// days, the plant grows by 5 units, and on odd days, it declines by 2 units. */
+/* growingPlant method is called with upSpeed as 5, downSpeed as 2, and desiredHeight as 10. The method calculates the number of days it takes for the plant to reach the desired height.
+In this case, the plant would reach a height of 10 units in 6 days, and the value 6 is printed to the console as the result.
+Please note that the provided code assumes that the plant initially starts at height 0 and that the values of upSpeed, 
+downSpeed, and desiredHeight are positive integers.*/
 
 public class Main {
     public static void main(String[] args) {
